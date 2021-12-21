@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 // import { Route } from 'react-router-dom'
 import NavBar from '../../components/NavBar/NavBar';
 import './App.css';
+import { Button } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // function App() {
 //   return (
@@ -27,6 +29,7 @@ class App extends Component {
       <>
         <NavBar navItems={this.state.navItems}/>
         <h1>Hello</h1>
+        <Button>Test Button</Button>
       </>
     );
   }
