@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <>
-        {/* <NavBar navItems={this.state.navItems}/> */}
+        <NavBar navItems={this.state.navItems}/>
         <h1>Hello</h1>
       </>
     );
